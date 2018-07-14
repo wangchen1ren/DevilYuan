@@ -1,0 +1,16 @@
+matplotlib
+pandas
+ta-lib
+lxml
+requests
+bs4
+tushare
+pymongo
+# pywinauto
+Pillow
+aiohttp
+statsmodels
+scipy
+sklearn
+mpl_finance
+qdarkstyle

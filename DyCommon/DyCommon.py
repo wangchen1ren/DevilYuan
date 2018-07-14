@@ -1,3 +1,4 @@
+# encoding=utf-8
 import os
 import functools
 import time as DySysTime

@@ -1,6 +1,6 @@
 from EventEngine.DyEvent import *
 from ..DyStockTradeCommon import *
-from .YhNew.YhTrader import YhTrader
+# from .YhNew.YhTrader import YhTrader
 from .Simu.SimuTrader import *
 
 
@@ -8,7 +8,7 @@ class DyStockTradeBrokerEngine(object):
     """ 券商交易接口引擎 """
 
     traderMap = {
-                 'yh': YhTrader,
+                 # 'yh': YhTrader,
 
                  'simu1': SimuTrader1,
                  'simu2': SimuTrader2,

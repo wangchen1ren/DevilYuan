@@ -1,7 +1,7 @@
 import os
 
 from ..UiTrader import UiTrader
-from .YhUiTrader import YHClientTrader
+# from .YhUiTrader import YHClientTrader
 from .log import log
 
 from DyCommon.DyCommon import *

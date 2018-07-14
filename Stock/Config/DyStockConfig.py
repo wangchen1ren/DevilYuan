@@ -4,8 +4,8 @@ import json
 from DyCommon.DyCommon import DyCommon
 from Stock.Common.DyStockCommon import DyStockCommon
 from ..Data.Engine.DyStockMongoDbEngine import DyStockMongoDbEngine
-from ..Trade.WeChat.DyStockTradeWxEngine import DyStockTradeWxEngine
-from ..Trade.Broker.YhNew.YhTrader import YhTrader
+# from ..Trade.WeChat.DyStockTradeWxEngine import DyStockTradeWxEngine
+# from ..Trade.Broker.YhNew.YhTrader import YhTrader
 from ..Data.Gateway.DyStockDataGateway import DyStockDataGateway
 
 
@@ -127,7 +127,8 @@ class DyStockConfig(object):
         DyStockConfig.configStockWxScKey(data)
 
     def configStockWxScKey(data):
-        DyStockTradeWxEngine.scKey = data["WxScKey"]
+        # DyStockTradeWxEngine.scKey = data["WxScKey"]
+        pass
 
     def getStockWxScKeyFileName():
         path = DyCommon.createPath('Stock/User/Config/Trade')
@@ -148,9 +149,10 @@ class DyStockConfig(object):
         DyStockConfig.configStockAccount(data)
 
     def configStockAccount(data):
-        YhTrader.account = data["Yh"]["Account"]
-        YhTrader.password = data["Yh"]["Password"]
-        YhTrader.exePath = data["Yh"]["Exe"]
+        # YhTrader.account = data["Yh"]["Account"]
+        # YhTrader.password = data["Yh"]["Password"]
+        # YhTrader.exePath = data["Yh"]["Exe"]
+        pass
 
     def getStockAccountFileName():
         path = DyCommon.createPath('Stock/User/Config/Trade')
